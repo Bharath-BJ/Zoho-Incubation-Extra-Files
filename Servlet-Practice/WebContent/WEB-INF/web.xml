@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+ <servlet>
+  	<servlet-name>add</servlet-name>
+  	<servlet-class>Practice.AddServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>add</servlet-name>
+  <url-pattern>/add</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  <servlet>
+  	<servlet-name>callingRD</servlet-name>
+  	<servlet-class>Practice.CallServletUsingRD</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>callingRD</servlet-name>
+  <url-pattern>/callingRD</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+   <servlet>
+  	<servlet-name>callingSR</servlet-name>
+  	<servlet-class>Practice.CallServletUsingSR</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>callingSR</servlet-name>
+  <url-pattern>/callingSR</url-pattern>
+  </servlet-mapping> 
+</web-app>
